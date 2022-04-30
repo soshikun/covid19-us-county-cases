@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>US County COVID-19 Case Rates 2020</title>
+        <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+        <link href="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.css" rel="stylesheet">
+        <script src="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.js"></script>
+        <link rel="stylesheet" href="css/map1.css">
+    </head> 
+
+    <body>
+        <div id="map"></div>
+        <div class='map-overlay' id='features'>
+            <h2>US County COVID-19 Case Rates 2020</h2>
+            <p class="map-description">COVID-19 case rates per thousand residents in each U.S. county during 2020. Intended for the public and health officials to visually see the rate of cases in their county to make observations of the state of health.</p>
+            <p class="sources">Sources: <a href="https://github.com/nytimes/covid-19-data/blob/43d32dde2f87bd4dafbb7d23f5d9e878124018b8/live/us-counties.csv">The New York Times</a>, <a href="https://data.census.gov/cedsci/table?g=0100000US.050000&d=ACS%205-Year%20Estimates%20Data%20Profiles&tid=ACSDP5Y2018.DP05&hidePreview=true">ACS</a>, & <a href="https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html">U.S. Census Bureau</a>            </p>
+            <div id='text-description'>
+                <p>Hover over a county!</p>
+            </div>
+        </div>
+        <div class='map-overlay' id='legend'></div>
+        <script src="js/map1.js"></script>
+    </body>
+
+</html>
