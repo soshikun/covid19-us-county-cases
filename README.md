@@ -9,11 +9,11 @@ The second map, U.S. County COVID-19 **Case Counts** Map, is a proportional symb
 
 ## Maps
 ### U.S. County COVID-19 Case Rates Map
-[View it for yourself!](https://soshikun.github.io/covid19-us-county-cases/map1)
+[View it for yourself!](https://soshikun.github.io/covid19-us-county-cases/map1.html)
 ![U.S. County COVID-19 Case Rates Map](img/map1.png)
 
 ### U.S. County COVID-19 Case Counts Map
-[View it for yourself!](https://soshikun.github.io/covid19-us-county-cases/map2)
+[View it for yourself!](https://soshikun.github.io/covid19-us-county-cases/map2.html)
 ![U.S. County COVID-19 Case Counts Map](img/map2.png)
 
 ## Libraries
